@@ -16,7 +16,7 @@ namespace ADOExample
             Assert.Null(category.Name);
             Assert.Null(category.Description);
         }
-
+/*
         [Fact]
         public void GetAllCategories_NoArgument_ReturnsAllCategories()
         {
@@ -94,7 +94,7 @@ namespace ADOExample
 
 
         /* products */
-
+/*
         [Fact]
         public void Product_Object_HasIdNameUnitPriceQuantityPerUnitAndUnitsInStock()
         {
@@ -137,6 +137,8 @@ namespace ADOExample
         }
 
         /* orders */
+
+        /*
         [Fact]
         public void Order_Object_HasIdDatesAndOrderDetails()
         {
@@ -169,6 +171,8 @@ namespace ADOExample
 
 
         /* orderdetails */
+
+        /*
         [Fact]
         public void OrderDetails_Object_HasOrderProductUnitPriceQuantityAndDiscount()
         {
@@ -202,6 +206,6 @@ namespace ADOExample
             Assert.Equal("1997-05-06", orderDetails.First().Order.Date.ToString("yyyy-MM-dd"));
             Assert.Equal(21, orderDetails.First().UnitPrice);
             Assert.Equal(3, orderDetails.First().Quantity);
-        }
+        }*/
     }
 }
