@@ -15,6 +15,7 @@ namespace EFExample
             foreach (var elem in dataService.GetProducts())
             {
                 Console.WriteLine(elem);
+                //test test Mathias er en Tyran
             }
 
 
