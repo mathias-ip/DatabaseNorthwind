@@ -19,7 +19,7 @@ namespace ADOExample
         static void Main(string[] args)
         {
             string connectionString =
-                "host=localhost;db=northwind;uid=bulskov;pwd=henrik";
+                "host=localhost;db=Northwind;uid=postgres;pwd=";
             using var conn = new NpgsqlConnection(connectionString);
             conn.Open();
 
