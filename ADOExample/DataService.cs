@@ -1,25 +1,21 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace ADOExample
 {
     public class DataService
     {
-        public void GetCategories()
+
+
+
+        public IList<Orders> GetOrders()
+
         {
-
-
-
-            var dataService = new DataService();
-
-
             using var ctx = new NorthWindContext();
-
-            foreach (var product in ctx.Products.Include(x => x.Category))
-            {
-                Console.WriteLine(product);
-            }
-
-
-
+            return ctx.Categories.ToList();
         }
+
+
     }
 }
+

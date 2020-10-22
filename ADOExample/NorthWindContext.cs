@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace EFExample
+namespace ADOExample
 {
     public class NorthWindContext : DbContext
     {
@@ -16,11 +16,12 @@ namespace EFExample
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Orders> Orders { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseLoggerFactory(MyLoggerFactory);
-            optionsBuilder.UseNpgsql("host=localhost;db=northwind;uid=bulskov;pwd=henrik");
+            optionsBuilder.UseNpgsql("host=localhost;db=Northwind;uid=postgress;pwd=");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -34,6 +35,11 @@ namespace EFExample
             modelBuilder.Entity<Product>().Property(x => x.Id).HasColumnName("productid");
             modelBuilder.Entity<Product>().Property(x => x.Name).HasColumnName("productname");
             modelBuilder.Entity<Product>().Property(x => x.CategoryId).HasColumnName("categoryid");
+
+            modelBuilder.Entity<Orders>().ToTable("orders");
+            modelBuilder.Entity<Orders>().Property(x => x.Id).HasColumnName("orderid");
+           // modelBuilder.Entity<Orders>().Property(x => x.date).HasColumnName("orderdate");
+            //modelBuilder.Entity<Category>().Property(x => x.Description).HasColumnName("description");
         }
     }
 
