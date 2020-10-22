@@ -11,8 +11,8 @@ namespace ADOExample
         public IList<Orders> GetOrders()
 
         {
-            using var ctx = new NorthWindContext();
-            return ctx.Categories.ToList();
+            var ctx = new NorthWindContext();
+            return ctx.Orders.ToList();
         }
 
 
