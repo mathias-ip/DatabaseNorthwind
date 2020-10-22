@@ -9,11 +9,11 @@ namespace ADOExample
 
 
 
-        public IList<Orders> GetOrders()
+        public IList<Category> GetCategories()
 
         {
             var ctx = new NorthWindContext();
-            return ctx.Orders.ToList();
+            return ctx.Categories.ToList();
         }
 
 

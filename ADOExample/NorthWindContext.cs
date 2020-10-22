@@ -21,7 +21,7 @@ namespace ADOExample
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseLoggerFactory(MyLoggerFactory);
-            optionsBuilder.UseNpgsql("host=localhost;db=Northwind;uid=postgress;pwd=191191Ippe");
+            optionsBuilder.UseNpgsql("host=localhost;db=Northwind;uid=postgres;pwd=191191Ippe");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -34,7 +34,7 @@ namespace ADOExample
             modelBuilder.Entity<Product>().ToTable("products");
             modelBuilder.Entity<Product>().Property(x => x.Id).HasColumnName("productid");
             modelBuilder.Entity<Product>().Property(x => x.Name).HasColumnName("productname");
-            modelBuilder.Entity<Product>().Property(x => x.CategoryId).HasColumnName("categoryid");
+           // modelBuilder.Entity<Product>().Property(x => x.CategoryId).HasColumnName("categoryid");
 
             modelBuilder.Entity<Orders>().ToTable("orders");
             modelBuilder.Entity<Orders>().Property(x => x.Id).HasColumnName("orderid");

@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFExample
+namespace ADOExample
 {
     class Program
     {
@@ -12,7 +12,7 @@ namespace EFExample
 
             var dataService = new DataService();
 
-            foreach (var elem in dataService.GetProducts())
+            foreach (var elem in dataService.GetCategories())
             {
                 Console.WriteLine(elem);
                 //test test Mathias er en Tyran
