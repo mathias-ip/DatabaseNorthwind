@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AmkDIxknCQ6wnGa2KGI3ibJrniuwns9+6zrpYibcgosh13f8/pe9zL33VoaMREovMPyCcifUgrOh3HJjzzrFlg==",
+  "dgSpecHash": "gQYL5uJj9aMxji+acXhMch/Dz83nB5u4jxXKJGOMCD91ZA6B3ntpgGyjN6LqsjYc+NTAyVGMR+l8pFapok3O6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\ADOExample\\ADOExample.csproj",
+  "projectFilePath": "/Users/mathiasipedersen/Projects/DatabaseNorthwind/ADOExample/ADOExample.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\peter\\.nuget\\packages\\npgsql\\4.1.5\\npgsql.4.1.5.nupkg.sha512",
-    "C:\\Users\\peter\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    "/Users/mathiasipedersen/.nuget/packages/npgsql/4.1.5/npgsql.4.1.5.nupkg.sha512",
+    "/Users/mathiasipedersen/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }
