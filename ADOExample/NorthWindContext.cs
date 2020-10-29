@@ -38,7 +38,10 @@ namespace ADOExample
 
             modelBuilder.Entity<Orders>().ToTable("orders");
             modelBuilder.Entity<Orders>().Property(x => x.Id).HasColumnName("orderid");
-           // modelBuilder.Entity<Orders>().Property(x => x.date).HasColumnName("orderdate");
+            modelBuilder.Entity<Orders>().Property(x => x.orderdate).HasColumnName("orderdate");
+            modelBuilder.Entity<Orders>().Property(x => x.shipname).HasColumnName("shipname");
+            modelBuilder.Entity<Orders>().Property(x => x.shipcity).HasColumnName("shipcity");
+            // modelBuilder.Entity<Orders>().Property(x => x.date).HasColumnName("orderdate");
             //modelBuilder.Entity<Category>().Property(x => x.Description).HasColumnName("description");
         }
     }
