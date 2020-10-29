@@ -1,0 +1,4 @@
+C:\Users\peter\Source\Repos\DatabaseNorthwind\ADOExample\obj\Debug\netcoreapp3.1\ADOExample.csprojAssemblyReference.cache
+C:\Users\peter\Source\Repos\DatabaseNorthwind\ADOExample\obj\Debug\netcoreapp3.1\ADOExample.AssemblyInfoInputs.cache
+C:\Users\peter\Source\Repos\DatabaseNorthwind\ADOExample\obj\Debug\netcoreapp3.1\ADOExample.AssemblyInfo.cs
+C:\Users\peter\Source\Repos\DatabaseNorthwind\ADOExample\obj\Debug\netcoreapp3.1\ADOExample.csproj.CoreCompileInputs.cache

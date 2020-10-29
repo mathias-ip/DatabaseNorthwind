@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\ADOExample\\ADOExample.csproj": {}
+    "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\WetService\\WetService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\ADOExample\\ADOExample.csproj": {
+    "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\WetService\\WetService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\ADOExample\\ADOExample.csproj",
-        "projectName": "ADOExample",
-        "projectPath": "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\ADOExample\\ADOExample.csproj",
+        "projectUniqueName": "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\WetService\\WetService.csproj",
+        "projectName": "WetService",
+        "projectPath": "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\WetService\\WetService.csproj",
         "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\ADOExample\\obj\\",
+        "outputPath": "C:\\Users\\peter\\Source\\Repos\\DatabaseNorthwind\\WetService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -42,25 +42,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.Extensions.Logging.Console": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
-              "version": "[3.1.9, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[4.1.5, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[3.2.3, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.14.0, )"
             }
           },
           "imports": [
@@ -74,6 +58,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

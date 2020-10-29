@@ -1,0 +1,10 @@
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\bin\Debug\netcoreapp3.1\WetService.exe
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\obj\Debug\netcoreapp3.1\WetService.csprojAssemblyReference.cache
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\obj\Debug\netcoreapp3.1\WetService.AssemblyInfoInputs.cache
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\obj\Debug\netcoreapp3.1\WetService.AssemblyInfo.cs
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\obj\Debug\netcoreapp3.1\WetService.RazorTargetAssemblyInfo.cache
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\obj\Debug\netcoreapp3.1\staticwebassets\WetService.StaticWebAssets.Manifest.cache
+C:\Users\peter\Source\Repos\DatabaseNorthwind\WetService\obj\Debug\netcoreapp3.1\staticwebassets\WetService.StaticWebAssets.xml
