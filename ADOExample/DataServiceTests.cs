@@ -9,12 +9,13 @@ namespace ADOExample
         /* Categories */
 
         [Fact]
-        public void Category_Object_HasIdNameAndDescription()
+        public void Orders_Object_HasIdNameAndDescription()
         {
-            var category = new Category();
-            Assert.Equal(0, category.Id);
-            Assert.Null(category.Name);
-            Assert.Null(category.Description);
+            var Orders = new Orders();
+            Assert.Equal(0, Orders.Id);
+            Assert.Null(Orders.shipname);
+            
+            Assert.Null(Orders.shipcity);
         }
 /*
         [Fact]

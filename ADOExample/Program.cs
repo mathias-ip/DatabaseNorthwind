@@ -12,7 +12,7 @@ namespace ADOExample
 
             var dataService = new DataService();
 
-            foreach (var elem in dataService.GetCategories())
+            foreach (var elem in dataService.GetOrders())
             {
                 Console.WriteLine(elem);
                 //test test Mathias er en Tyran

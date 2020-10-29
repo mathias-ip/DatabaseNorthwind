@@ -6,7 +6,7 @@ namespace ADOExample
         {
             public int Id { get; set; }
 
-            public int orderdate { get; set; }
+            public DateTime orderdate { get; set; }
 
             public string shipname { get; set; }
 
