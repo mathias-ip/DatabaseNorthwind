@@ -11,15 +11,15 @@ namespace ADOExample
     {
         public int Id { get; set; }
 
-        public int date { get; set; }
+        public string Name { get; set; }
 
-        public string shipname { get; set; }
-
-        public string shipcity { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
 
         public override string ToString()
         {
-            return $"Id = {Id}, date = {date}, shipname = {shipname}, shipcity ={shipcity}";
+            return $"Id = {Id}, Name = {Name}, Category = {Category.Name}";
+            //
         }
     }
 }
