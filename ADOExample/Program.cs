@@ -11,13 +11,26 @@ namespace ADOExample
         {
 
             var dataService = new DataService();
-
             foreach (var elem in dataService.GetOrders())
             {
                 Console.WriteLine(elem);
-                //test test Mathias er en Tyran
-                //test
+
             }
+
+
+
+
+
+
+
+
+
+           /* var ctx = new NorthWindContext();
+            var orders = ctx.Orders.ToList();
+            var catagory = ctx.Categories.ToList();*/
+
+
+
 
 
             //using var ctx = new NorthWindContext();
