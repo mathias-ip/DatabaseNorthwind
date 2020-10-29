@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mnkDzFJIg3czcjCWx8nq05cYjdOAaryLI5horavFWpLb2SuSi6+Psltf1FAxZiC+z2KpsXj5tKm+5SpJGXP1pQ==",
+  "dgSpecHash": "R9tlIHZpO9IjhL2UqNwTQFFkqPx9XnkVKFAIFI+uCVfZ+YvUvVYxcix5tzWNxMO65VFNRgM8HMwyM/LWVBBiog==",
   "success": true,
-  "projectFilePath": "/Users/mathiasipedersen/Projects/DatabaseNorthwind/WetService/WetService.csproj",
+  "projectFilePath": "/Users/mathiasipedersen/Projects/DatabaseNorthwind/WetService/WebService.csproj",
   "expectedPackageFiles": [
     "/Users/mathiasipedersen/.nuget/packages/microsoft.applicationinsights/2.14.0/microsoft.applicationinsights.2.14.0.nupkg.sha512",
     "/Users/mathiasipedersen/.nuget/packages/microsoft.applicationinsights.aspnetcore/2.14.0/microsoft.applicationinsights.aspnetcore.2.14.0.nupkg.sha512",

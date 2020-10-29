@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADOExample", "ADOExample\ADOExample.csproj", "{BEE7DEA9-0D66-4CE5-9E40-B1F7DC3A7E0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WetService", "WetService\WetService.csproj", "{7C7AEAA4-4D42-481D-849F-A06EEF3D9EB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WetService\WebService.csproj", "{7C7AEAA4-4D42-481D-849F-A06EEF3D9EB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

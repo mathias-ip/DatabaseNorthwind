@@ -7334,9 +7334,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mathiasipedersen/Projects/DatabaseNorthwind/WetService/WetService.csproj",
-      "projectName": "WetService",
-      "projectPath": "/Users/mathiasipedersen/Projects/DatabaseNorthwind/WetService/WetService.csproj",
+      "projectUniqueName": "/Users/mathiasipedersen/Projects/DatabaseNorthwind/WetService/WebService.csproj",
+      "projectName": "WebService",
+      "projectPath": "/Users/mathiasipedersen/Projects/DatabaseNorthwind/WetService/WebService.csproj",
       "packagesPath": "/Users/mathiasipedersen/.nuget/packages/",
       "outputPath": "/Users/mathiasipedersen/Projects/DatabaseNorthwind/WetService/obj/",
       "projectStyle": "PackageReference",
