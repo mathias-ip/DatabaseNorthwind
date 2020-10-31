@@ -23,5 +23,12 @@ namespace WebService.Controllers
             
         }
 
+        public JsonResult GetCategory(int id) 
+        {
+            var ds = new DataService();
+            var category = ds.GetCategory(id);
+            return new JsonResult(category);            
+        }
+
     }
 }
