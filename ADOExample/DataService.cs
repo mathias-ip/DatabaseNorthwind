@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace ADOExample
 {
-    public class DataService
+    public class DataService : IDataService
     {
 
         List<Category> _categories = new List<Category>
@@ -20,19 +20,24 @@ namespace ADOExample
             new Category{ Id = 8, Name = "Seafood", Description = "Seaweed and fish"}
         };
 
-        public IList<Category> GetCategories() 
+        public IList<Category> GetCategories()
         {
             return _categories;
-        } 
+        }
 
-       public IList<Orders> GetOrders()
+        public Category GetCategory(int id)
+        {
+            return _categories.FirstOrDefault(x => x.Id == id);
+        }
+
+        public IList<Orders> GetOrders()
 
         {
             var ctx = new NorthWindContext();
-           return ctx.Orders.ToList();
+            return ctx.Orders.ToList();
         }
 
-        
+
     }
 }
 

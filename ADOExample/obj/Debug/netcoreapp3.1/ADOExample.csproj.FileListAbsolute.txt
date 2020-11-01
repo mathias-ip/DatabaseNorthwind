@@ -88,3 +88,4 @@ C:\Users\peter\Source\Repos\DatabaseNorthwind\ADOExample\obj\Debug\netcoreapp3.1
 C:\Users\peter\Source\Repos\DatabaseNorthwind\ADOExample\obj\Debug\netcoreapp3.1\ADOExample.dll
 C:\Users\peter\Source\Repos\DatabaseNorthwind\ADOExample\obj\Debug\netcoreapp3.1\ADOExample.pdb
 C:\Users\peter\Source\Repos\DatabaseNorthwind\ADOExample\obj\Debug\netcoreapp3.1\ADOExample.genruntimeconfig.cache
+C:\Users\peter\Source\Repos\DatabaseNorthwind\ADOExample\obj\Debug\netcoreapp3.1\ADOExample.csprojAssemblyReference.cache

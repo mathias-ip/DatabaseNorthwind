@@ -8,27 +8,39 @@ using Microsoft.AspNetCore.Mvc;
 
 
 namespace WebService.Controllers
-{
+{ 
+    
     [ApiController]
     [Route("api/categories")]
     public class CategoriesController : ControllerBase
     {
-        [HttpGet("api/categories")]
-        public JsonResult GetCategories() 
-        {
-            var ds = new DataService();
-            var categories = ds.GetCategories();
+        IDataService _dataService;
 
-            return new JsonResult(categories);
+        public CategoriesController(IDataService dataService)
+        {
+            _dataService = dataService;
+        }
+
+        [HttpGet("api/categories")]
+        public IActionResult GetCategories() 
+        {
+            var categories = _dataService.GetCategories();
+
+            return Ok(categories);
             
         }
 
-        public JsonResult GetCategory(int id) 
+       // [HttpGet ("api/categories/{id}")]
+        public IActionResult GetCategory(int id) 
         {
-            var ds = new DataService();
-            var category = ds.GetCategory(id);
-            return new JsonResult(category);            
+            var category = _dataService.GetCategory(id);
+            if (category== null) 
+            {
+                return NotFound();
+            }
+            return Ok(category);            
         }
 
-    }
+
+    } 
 }
