@@ -21,7 +21,7 @@ namespace ADOExample
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseLoggerFactory(MyLoggerFactory);
-            optionsBuilder.UseNpgsql("host=localhost;db=Northwind;uid=postgres;pwd=wqm97rcn8844");
+            optionsBuilder.UseNpgsql("host=localhost;db=Northwind;uid=postgres;pwd=Wqm97rcn");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
