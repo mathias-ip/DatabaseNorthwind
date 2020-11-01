@@ -1,7 +1,7 @@
 ﻿using System;
 namespace ADOExample
 {
-    public class oderdetails
+    public class orderdetails
     {
         public int orderid { get; set; }
         public int productid { get; set; }

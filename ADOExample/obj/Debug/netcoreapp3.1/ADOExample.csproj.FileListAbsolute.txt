@@ -46,3 +46,4 @@ C:/Users/peter/Source/Repos/DatabaseNorthwind/ADOExample/obj/Debug/netcoreapp3.1
 /Users/mathiasipedersen/Projects/DatabaseNorthwind/ADOExample/bin/Debug/netcoreapp3.1/xunit.execution.dotnet.dll
 /Users/mathiasipedersen/Projects/DatabaseNorthwind/ADOExample/obj/Debug/netcoreapp3.1/ADOExample.csproj.CopyComplete
 /Users/mathiasipedersen/Projects/DatabaseNorthwind/ADOExample/obj/Debug/netcoreapp3.1/ADOExample.genruntimeconfig.cache
+/Users/mathiasipedersen/Projects/DatabaseNorthwind/ADOExample/bin/Debug/netcoreapp3.1/Microsoft.Net.Http.Headers.dll

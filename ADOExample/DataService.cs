@@ -9,14 +9,14 @@ namespace ADOExample
 
 
 
-        public IList<Orders> GetOrders()
+       public IList<Orders> GetOrders()
 
         {
             var ctx = new NorthWindContext();
-            return ctx.Orders.ToList();
+           return ctx.Orders.ToList();
         }
 
-
+        
     }
 }
 

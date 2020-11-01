@@ -45,12 +45,12 @@ namespace ADOExample
             //modelBuilder.Entity<Category>().Property(x => x.Description).HasColumnName("description");
 
 
-            modelBuilder.Entity<oderdetails>().ToTable("orderdetails");
-            modelBuilder.Entity<oderdetails>().Property(x => x.orderid).HasColumnName("orderid");
-            modelBuilder.Entity<oderdetails>().Property(x => x.productid).HasColumnName("productid");
-            modelBuilder.Entity<oderdetails>().Property(x => x.unitprice).HasColumnName("unitprice");
-            modelBuilder.Entity<oderdetails>().Property(x => x.quantity).HasColumnName("quantity");
-            modelBuilder.Entity<oderdetails>().Property(x => x.discount).HasColumnName("discount");
+          /*  modelBuilder.Entity<orderdetails>().ToTable("orderdetails");
+            modelBuilder.Entity<orderdetails>().Property(x => x.orderid).HasColumnName("orderid");
+            modelBuilder.Entity<orderdetails>().Property(x => x.productid).HasColumnName("productid");
+            modelBuilder.Entity<orderdetails>().Property(x => x.unitprice).HasColumnName("unitprice");
+            modelBuilder.Entity<orderdetails>().Property(x => x.quantity).HasColumnName("quantity");
+            modelBuilder.Entity<orderdetails>().Property(x => x.discount).HasColumnName("discount");*/
         }
     }
 
