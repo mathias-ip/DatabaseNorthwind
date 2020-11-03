@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ADOExample;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -18,10 +19,9 @@ namespace WetService
         {
             services.AddControllers();
 
-          //services.AddSingleton<IDataService, DataService>();
-
+           services.AddSingleton<IDataService, DataService>();
           //services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            services.AddApplicationInsightsTelemetry();
+           // services.AddApplicationInsightsTelemetry();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

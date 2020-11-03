@@ -21,7 +21,7 @@ namespace WebService.Controllers
             _dataService = dataService;
         }
 
-        [HttpGet("api/categories")]
+        [HttpGet]
         public IActionResult GetCategories() 
         {
             var categories = _dataService.GetCategories();
@@ -30,7 +30,7 @@ namespace WebService.Controllers
             
         }
 
-       // [HttpGet ("api/categories/{id}")]
+        [HttpGet("{id}")]
         public IActionResult GetCategory(int id) 
         {
             var category = _dataService.GetCategory(id);
